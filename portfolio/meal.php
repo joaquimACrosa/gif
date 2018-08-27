@@ -93,11 +93,11 @@ include '../library/template_functions/t_functions.php';
         <!--PORTFOLIO NAV-->
         <div class="project-nav">
           <div class="nav-prev">
-              <a href="content-snare.php"><img width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"></a>
+              <a href="andrew-hubbard.php"><img width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"></a>
               <div>Previous</div>
           </div>
           <div class="nav-next">
-              <a href="foodie.php"><img width="43" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Right"></a>
+              <a href="nutrition-therapy-institute.php"><img width="43" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Right"></a>
               <div style="text-align:center;">Next</div>
           </div>
         </div>
@@ -134,8 +134,8 @@ include '../library/template_functions/t_functions.php';
         <div class="col col-3"></div>
       </div>
       <div class="footer-project-nav project-nav">
-        <div class="nav-prev"><a href="content-snare.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowLeft-White-@2x.png" alt="Left"><img class="grey-arrow mobile" width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"><div>Previous</div></a></div>
-        <div class="nav-next"><a href="foddie.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowRight-White-@2x.png" alt="Right"><img width="43" class="grey-arrow mobile" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Left"><div>Next</div></a></div>
+        <div class="nav-prev"><a href="andrew-hubbard.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowLeft-White-@2x.png" alt="Left"><img class="grey-arrow mobile" width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"><div>Previous</div></a></div>
+        <div class="nav-next"><a href="nutrition-therapy-institute"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowRight-White-@2x.png" alt="Right"><img width="43" class="grey-arrow mobile" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Left"><div>Next</div></a></div>
       </div>
       <? echo getFooter(); ?>
       <!--END FOOTER-->

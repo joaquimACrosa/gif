@@ -94,7 +94,7 @@ include '../library/template_functions/t_functions.php';
         <!--PORTFOLIO NAV-->
         <div class="project-nav">
           <div class="nav-prev"><a href="foodie.php"><img width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"><div>Previous</div></a></div>
-          <div class="nav-next"><a href="nutrition-therapy-institute.php"><img width="43" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Right"><div>Next</div></a></div>
+          <div class="nav-next"><a href="the-bridal-collection-harrogate.php"><img width="43" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Right"><div>Next</div></a></div>
         </div>
       </div>
       <!--END PROJECT INFO-->
@@ -147,7 +147,7 @@ include '../library/template_functions/t_functions.php';
       </div>
       <div class="footer-project-nav project-nav">
         <div class="nav-prev"><a href="foodie.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowLeft-White-@2x.png" alt="Left"><img class="grey-arrow mobile" width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"><div>Previous</div></a></div>
-        <div class="nav-next"><a href="nutrition-therapy-institute.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowRight-White-@2x.png" alt="Right"><img width="43" class="grey-arrow mobile" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Left"><div>Next</div></a></div>
+        <div class="nav-next"><a href="the-bridal-collection-harrogate.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowRight-White-@2x.png" alt="Right"><img width="43" class="grey-arrow mobile" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Left"><div>Next</div></a></div>
       </div>
       <? echo getFooter(); ?>
       <!--END FOOTER-->

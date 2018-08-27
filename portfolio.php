@@ -97,229 +97,290 @@ include 'library/template_functions/t_functions.php';
       <!--SECTION2-->
       <section class="rollover effect-subtle clearfix portfolio-mosaic" id="scroll-anchor">
 
-				<!-- item -->
-        <article class="mosaic2">
-					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-Foodie.jpg" alt="Foodie" class="full-width">
-            <div class="overlay white">
-                <div class="project-text">
-                  <div class="project-title dark_grey">Foodie</div>
-                  <div class="project-link"><a class="btn btn-dark-grey" href="foodie">View Project</a></div>
-                </div>
-              </div>
-					</figure>
-				</article>
-				<!-- / item -->
+                  <!-- item -->
+                  <article class="mosaic2">
+                          <div class="hover-overlay">
+                              <div class="project-text">
+                                <div class="project-title">Nicholas Kusmich</div>
+                                <div class="project-link"><a class="btn btn-white" href="nicholas-kusmich">View Project</a></div>
+                              </div>
+                          </div>
+                          <figure class="">
+                              <img src="img/GIF-Portfolio-Cover-Foodie.jpg" alt="" class="full-width">
+                          </figure>
+                  </article>
+                  <!-- / item -->
 
-				<!-- item -->
-				<article class="mosaic2">
-					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-BabyBareEssentials.jpg" alt="" class="full-width">
-            <div class="overlay white">
-                <div class="project-text">
-                  <div class="project-title">Baby Bare Essentials</div>
-                  <div class="project-link"><a class="btn btn-white" href="baby-bare-essentials">View Project</a></div>
-                </div>
-              </div>
-					</figure>
-				</article>
-				<!-- / item -->
-
-				<!-- item -->
-        <article class="mosaic2">
-					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-NutritionTherapyInstitute.jpg" alt="" class="full-width">
-            <div class="overlay white">
-                <div class="project-text">
-                  <div class="project-title">Nutrition Therapy Institute</div>
-                  <div class="project-link"><a class="btn btn-white" href="nutrition-therapy-institute">View Project</a></div>
-                </div>
-              </div>
-					</figure>
-				</article>
-				<!-- / item -->
-
-
-				<!-- item -->
-        <article class="mosaic2">
-					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-MichelleMcGlade.jpg" alt="" class="full-width">
-            <div class="overlay white">
-                <div class="project-text">
-                  <div class="project-title dark_grey">Michelle McGlade</div>
-                  <div class="project-link"><a class="btn btn-dark-grey" href="michelle-mcglade">View Project</a></div>
-                </div>
-              </div>
-					</figure>
-				</article>
-				<!-- / item -->
-
-				<!-- item -->
-        <article class="mosaic2">
-					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-Bibliohive.jpg" alt="" class="full-width">
-            <div class="overlay white">
-                <div class="project-text">
-                  <div class="project-title">Bibliohive</div>
-                  <div class="project-link"><a class="btn btn-white" href="bibliohive">View Project</a></div>
-                </div>
-              </div>
-					</figure>
-				</article>
-				<!-- / item -->
-
-				<!-- item -->
-        <article class="mosaic2">
-					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-Atticus.jpg" alt="" class="full-width">
-            <div class="overlay white">
-                <div class="project-text">
-                  <div class="project-title">Atticus</div>
-                  <div class="project-link"><a class="btn btn-white" href="atticus">View Project</a></div>
-                </div>
-              </div>
-					</figure>
-				</article>
-				<!-- / item -->
-
-				<!-- item -->
-        <article class="mosaic2">
-					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-TheBridalCollection.jpg" alt="" class="full-width">
-            <div class="overlay white">
-                <div class="project-text">
-                  <div class="project-title">The Bridal Collection Harrogate</div>
-                  <div class="project-link"><a class="btn btn-white" href="the-bridal-collection-harrogate">View Project</a></div>
-                </div>
-              </div>
-					</figure>
-				</article>
-				<!-- / item -->
-
-				<!-- item -->
-        <article class="mosaic2">
-					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-BiddyTarot.jpg" alt="" class="full-width">
-            <div class="overlay white">
-                <div class="project-text">
-                  <div class="project-title">Biddy Tarot</div>
-                  <div class="project-link"><a class="btn btn-white" href="biddy-tarot">View Project</a></div>
-                </div>
-              </div>
-					</figure>
-				</article>
-				<!-- / item -->
-                <!-- item -->
-        <article class="mosaic2">
-				<figure class="">
-					<img src="img/gigi-guides.jpg" alt="" class="full-width">
-                    <div class="overlay white">
-                        <div class="project-text">
-                          <div class="project-title">Gigi Guides</div>
-                          <div class="project-link"><a class="btn btn-white" href="gigi-guides">View Project</a></div>
-                        </div>
+                  <!-- item -->
+                  <article class="mosaic2">
+                      <div class="hover-overlay">
+                          <div class="project-text">
+                            <div class="project-title">The League of Speakers</div>
+                            <div class="project-link"><a class="btn btn-white" href="portfolio/leaguehps.php">View Project</a></div>
+                          </div>
                       </div>
-				</figure>
-		</article>
-				<!-- / item -->
-                <!-- item -->
-        <article class="mosaic2">
-                <figure class="">
-                    <img src="img/GIF-Portfolio-Cover-Naturally-Made-Essentials-01.jpg" alt="" class="full-width">
-                    <div class="overlay white">
-                        <div class="project-text">
-                          <div class="project-title">Naturally Made Essentials</div>
-                          <div class="project-link"><a class="btn btn-white" href="naturally-made-essentials">View Project</a></div>
-                        </div>
-                      </div>
-                </figure>
-        </article>
-                <!-- / item -->
-                <!-- item -->
-        <article class="mosaic2">
-                <figure class="">
-                    <img src="img/GIF-Portfolio-Cover-Alex-Shalman.jpg" alt="" class="full-width">
-                    <div class="overlay white">
-                        <div class="project-text">
-                          <div class="project-title">Alex Shalman</div>
-                          <div class="project-link"><a class="btn btn-white" href="alex-shalman">View Project</a></div>
-                        </div>
-                      </div>
-                </figure>
-        </article>
-                <!-- / item -->
-                <!-- item -->
-        <article class="mosaic2">
-                <figure class="">
-                    <img src="img/GIF-Portfolio-Cover-Peter-Shankman-01.jpg" alt="" class="full-width">
-                    <div class="overlay white">
-                        <div class="project-text">
-                          <div class="project-title">Peter Shankman</div>
-                          <div class="project-link"><a class="btn btn-white" href="peter-shankman">View Project</a></div>
-                        </div>
-                      </div>
-                </figure>
-        </article>
-                <!-- / item -->
-                <!-- item -->
-        <article class="mosaic2">
-                <figure class="">
-                    <img src="img/GIF-Portfolio-Cover-Nicholas-Kusmich.jpg" alt="" class="full-width">
-                    <div class="overlay white">
-                        <div class="project-text">
-                          <div class="project-title">Nicholas Kusmich</div>
-                          <div class="project-link"><a class="btn btn-white" href="nicholas-kusmich">View Project</a></div>
-                        </div>
-                      </div>
-                </figure>
-        </article>
-                <!-- / item -->
+  					<figure class="">
+  						<img src="img/GIF-Portfolio-Cover-LeagueHPS.jpg" alt="LeagueHPS" class="full-width">
+  					</figure>
+  				</article>
+  				<!-- / item -->
 
                 <!-- item -->
                 <article class="mosaic2">
-                <figure class="">
-                    <img src="img/GIF-Portfolio-Cover-AndrewHubbard.png" alt="" class="full-width">
-                    <div class="overlay white">
+                    <div class="hover-overlay">
                         <div class="project-text">
-                          <div class="project-title">Andrew Hubbard</div>
-                          <div class="project-link"><a class="btn btn-white" href="andrewhubbard">View Project</a></div>
+                          <div class="project-title">Rythm 24</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/rythm24.php">View Project</a></div>
                         </div>
-                      </div>
-                </figure>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-Rythm24.jpg" alt="Rythm24" class="full-width">
+                    </figure>
                 </article>
                 <!-- / item -->
 
                 <!-- item -->
-        <article class="mosaic2">
-                <figure class="">
-                    <img src="img/GIF-Portfolio-Cover-ContentSnare.png" alt="" class="full-width">
-                    <div class="overlay white">
+                <article class="mosaic2">
+                    <div class="hover-overlay">
                         <div class="project-text">
-                          <div class="project-title">Content Snare</div>
-                          <div class="project-link"><a class="btn btn-white" href="contentsnare">View Project</a></div>
+                          <div class="project-title">Meal Prep Pro</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/meal-prep-pro.php">View Project</a></div>
                         </div>
-                      </div>
-                </figure>
-        </article>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-MealPrepPro.jpg" alt="MealPrepPro" class="full-width">
+                    </figure>
+                </article>
                 <!-- / item -->
 
                 <!-- item -->
-        <article class="mosaic2">
-                <figure class="">
-                    <img src="img/GIF-Portfolio-Cover-Tier11.png" alt="" class="full-width">
-                    <div class="overlay white">
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Bob Heilig</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/bob-heilig.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-BobHeilig.jpg" alt="BobHeilig" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Shaggy Supps</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/shaggy-supps.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-ShaggySupps.jpg" alt="ShaggySupps" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
                         <div class="project-text">
                           <div class="project-title">Tier 11</div>
-                          <div class="project-link"><a class="btn btn-white" href="tier11">View Project</a></div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/tier11.php">View Project</a></div>
                         </div>
-                      </div>
-                </figure>
-        </article>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-Tier11.jpg" alt="Tier11" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Taki Moore</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/taki-moore.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-MillionDollarCoach.jpg" alt="MillionDollarCoach" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Naomi Whittle</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/naomi-whittle.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-Naomi.jpg" alt="Naomi" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Alana Mitchell</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/alana-mitchell.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-AlanaMitchell.jpg" alt="AlanaMitchell" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Soul Power</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/soul-power.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-SoulPowered.jpg" alt="SoulPowered" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Andrew Hubbard</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/andrew-hubbard.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-AndrewHubbard.jpg" alt="AndrewHubbard" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Meal</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/meal.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-Meal.jpg" alt="Meal" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Nutrition Therapy Institute</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/nutrition-therapy-institute.php">View Project</a></div>
+                        </div>
+                    </div>
+					<figure class="">
+						<img src="img/GIF-Portfolio-Cover-NutritionTherapyInstitute.jpg" alt="" class="full-width">
+					</figure>
+				</article>
+				<!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Biddy Tarot</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/biddy-tarot.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-BiddyTarot.jpg" alt="" class="full-width">
+                    </figure>
+                </article>
                 <!-- / item -->
 
 
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Foodie</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/foodie.php">View Project</a></div>
+                        </div>
+                    </div>
+					<figure class="">
+						<img src="img/GIF-Portfolio-Cover-Foodie.jpg" alt="Foodie" class="full-width">
+					</figure>
+				</article>
+				<!-- / item -->
 
-                <article class="mosaic2" style="background-color:#ffaa00;">
+				<!-- item -->
+
+				<article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Baby Bare Essentials</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/baby-bare-essentials.php">View Project</a></div>
+                        </div>
+                    </div>
+					<figure class="">
+						<img src="img/GIF-Portfolio-Cover-BabyBareEssentials.jpg" alt="" class="full-width">
+					</figure>
+				</article>
+				<!-- / item -->
+
+				<!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">The Bridal Collection Harrogate</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/the-bridal-collection-harrogate.php">View Project</a></div>
+                        </div>
+                    </div>
+    				<figure class="">
+    					<img src="img/GIF-Portfolio-Cover-TheBridalCollection.jpg" alt="" class="full-width">
+    				</figure>
+				</article>
+				<!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Naturally Made Essentials</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/naturally-made-essentials.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-NaturallyMadeEssentials.jpg" alt="NaturallyMadeEssentials" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+                <!-- item -->
+                <article class="mosaic2">
+                    <div class="hover-overlay">
+                        <div class="project-text">
+                          <div class="project-title">Alma Cheia</div>
+                          <div class="project-link"><a class="btn btn-white" href="portfolio/alma-cheia.php">View Project</a></div>
+                        </div>
+                    </div>
+                    <figure class="">
+                        <img src="img/GIF-Portfolio-Cover-AlmaCheia.jpg" alt="AlmaCheia" class="full-width">
+                    </figure>
+                </article>
+                <!-- / item -->
+
+
+                <!-- <article class="mosaic2" style="background-color:#ffaa00;">
         					<figure class="">
         						<img style="visibility:hidden;" src="img/GIF-Portfolio-Cover-Nicholas-Kusmich.jpg" alt="" class="full-width">
                     <div class="overlay white">
@@ -337,10 +398,10 @@ include 'library/template_functions/t_functions.php';
       <!--SECTION 3-->
         <div class="bottom-section" style="position:relative;" id="section2">
           <h1 class="orange workwithus-h1">Ready to work with us?</h1>
-          <p class="workwithus-p">We know you want to :)</p>
+          <p class="workwithus-p">Fill out the form below to get on a call with one of our co-founders.</p>
             <div class="btn-container">
                 <a class="btn btn-orange animate" href="/hire-us">Oh Yeah!</a>
-                <a class="btn hide-on-mobile btn-orange animate" href="/contact">I have a question</a>
+                <!-- <a class="btn hide-on-mobile btn-orange animate" href="/contact">I have a question</a> -->
             </div>
           <? echo getFooter(); ?>
         </div>
