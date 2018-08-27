@@ -6,7 +6,7 @@ include '../library/template_functions/t_functions.php';
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Naomi Whittle - GIF Design Studios</title>
+  <title>Compass Rose - GIF Design Studios</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" media="screen" href="../css/styles.css">
@@ -20,13 +20,13 @@ include '../library/template_functions/t_functions.php';
   <script src="../js/squareResponsive.js"></script>
   <style>
   .project-color{
-    background-color: #556c11;
+    background-color: #364956;
   }
   .txt-label{
-    color: #556c11;
+    color: #364956;
   }
   .project-text-color{
-      color: #556c11;
+      color: #364956;
   }
 
   </style>
@@ -52,13 +52,13 @@ include '../library/template_functions/t_functions.php';
     <? echo scriptsHead(); ?>
     <? echo getAnalytics(); ?>
 </head>
-<body class="single-portfolio no-hijack project-naomi-whittle">
+<body class="single-portfolio no-hijack project-compass-rose">
 <? echo getHeader(); ?>
 <div id="wrapper">
   <main id="portfolio-page">
     <div>
       <!--PROJECT HEADER-->
-      <div id="single-project-cover" class="project_19 desktop">
+      <div id="single-project-cover" class="project_27 desktop">
           <div class="keepScrollingContainer">
               <a href="#anchor">
                   <div class="animated bounce">
@@ -67,7 +67,7 @@ include '../library/template_functions/t_functions.php';
                   <div class="white">Keep Scrolling</div>
               </a>
             </div></div>
-      <div class="col col-12 hide-on-desktop"><img src="../img/GIF-Naomi-01.jpg" alt="Naomi" class="full-width"></div>
+      <div class="col col-12 hide-on-desktop"><img src="../img/GIF-CompassRose-01.jpg" alt="CompassRose" class="full-width"></div>
       <!--END PROJECT HEADER-->
 
       <!--PROJECT INFO-->
@@ -83,11 +83,11 @@ include '../library/template_functions/t_functions.php';
           </div>
           <div class="portfolio-details col-3">
             <p class="txt-label">Client:</p>
-            <p class="text">Jen Hensard / Naomi Whittle</p>
+            <p class="text">Alexandre Jimenez</p>
             <p class="txt-label">Art direction:</p>
             <p class="text">Joana Galvão</p>
-            <p class="txt-label">Editorial:</p>
-            <p class="text">João Loureiro</p>
+            <p class="txt-label">Branding:</p>
+            <p class="text">Diana Santa</p>
           </div>
         </div>
         <!--PORTFOLIO NAV-->
@@ -104,20 +104,21 @@ include '../library/template_functions/t_functions.php';
       </div>
       <!--END PROJECT INFO-->
 
-      <div class="col col-12" ><img src="../img/GIF-Naomi-02.jpg" alt="Naomi" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-CompassRose-02.jpg" alt="CompassRose" class="full-width"></div>
       <div class="cell col-6 table testimonial">
         <div class="square-responsive square-center">
             <p>GIF Design Studios helped us develop a new brand identity that we feel will help distinguish us from our competitors.</p>
             <p>We love the fact that their team was knowledgeable when it came to talking about conversion, user experience, and branding, as we feel those are essential in growing a successful and profitable company. Working with a company that provides this type of education, is invaluable.</p>
-            <p class="bold project-text-color">Jen Hensard / Naomi Whittle</p>
+            <p class="bold project-text-color">Alexandre Jimenez</p>
         </div>
       </div>
       <div class="cell col-6 desktop" >
         <div class="square-responsive square-image1"></div>
       </div>
-      <div class="col col-12" ><img src="../img/GIF-Naomi-04.jpg" alt="Naomi" class="full-width"></div>
-      <div class="col col-12" ><img src="../img/GIF-Naomi-05.jpg" alt="Naomi" class="full-width"></div>
-      <div class="col col-12" ><img src="../img/GIF-Naomi-06.jpg" alt="Naomi" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-CompassRose-04.jpg" alt="CompassRose" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-CompassRose-05.jpg" alt="CompassRose" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-CompassRose-06.jpg" alt="CompassRose" class="full-width"></div>
+
 
       <!--FOOTER-->
       <div class="project-links project-color">

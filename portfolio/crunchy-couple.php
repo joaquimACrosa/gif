@@ -6,7 +6,7 @@ include '../library/template_functions/t_functions.php';
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Naomi Whittle - GIF Design Studios</title>
+  <title>The Crunchy Couple - GIF Design Studios</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" media="screen" href="../css/styles.css">
@@ -20,13 +20,13 @@ include '../library/template_functions/t_functions.php';
   <script src="../js/squareResponsive.js"></script>
   <style>
   .project-color{
-    background-color: #556c11;
+    background-color: #18415b;
   }
   .txt-label{
-    color: #556c11;
+    color: #18415b;
   }
   .project-text-color{
-      color: #556c11;
+      color: #18415b;
   }
 
   </style>
@@ -52,13 +52,13 @@ include '../library/template_functions/t_functions.php';
     <? echo scriptsHead(); ?>
     <? echo getAnalytics(); ?>
 </head>
-<body class="single-portfolio no-hijack project-naomi-whittle">
+<body class="single-portfolio no-hijack project-crunchy-couple">
 <? echo getHeader(); ?>
 <div id="wrapper">
   <main id="portfolio-page">
     <div>
       <!--PROJECT HEADER-->
-      <div id="single-project-cover" class="project_19 desktop">
+      <div id="single-project-cover" class="project_29 desktop">
           <div class="keepScrollingContainer">
               <a href="#anchor">
                   <div class="animated bounce">
@@ -67,7 +67,7 @@ include '../library/template_functions/t_functions.php';
                   <div class="white">Keep Scrolling</div>
               </a>
             </div></div>
-      <div class="col col-12 hide-on-desktop"><img src="../img/GIF-Naomi-01.jpg" alt="Naomi" class="full-width"></div>
+      <div class="col col-12 hide-on-desktop"><img src="../img/GIF-TheCrunchyCouple-01.jpg" alt="TheCrunchyCouple" class="full-width"></div>
       <!--END PROJECT HEADER-->
 
       <!--PROJECT INFO-->
@@ -83,11 +83,15 @@ include '../library/template_functions/t_functions.php';
           </div>
           <div class="portfolio-details col-3">
             <p class="txt-label">Client:</p>
-            <p class="text">Jen Hensard / Naomi Whittle</p>
+            <p class="text">Anita & Jarrod Roussel</p>
             <p class="txt-label">Art direction:</p>
             <p class="text">Joana Galvão</p>
-            <p class="txt-label">Editorial:</p>
-            <p class="text">João Loureiro</p>
+            <p class="txt-label">Branding:</p>
+            <p class="text">Diana Santa</p>
+            <p class="txt-label">UX/UI:</p>
+            <p class="text">Diana Santa</p>
+            <p class="txt-label">Development:</p>
+            <p class="text">Joaquim Rosa</p>
           </div>
         </div>
         <!--PORTFOLIO NAV-->
@@ -104,27 +108,33 @@ include '../library/template_functions/t_functions.php';
       </div>
       <!--END PROJECT INFO-->
 
-      <div class="col col-12" ><img src="../img/GIF-Naomi-02.jpg" alt="Naomi" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-TheCrunchyCouple-02.jpg" alt="TheCrunchyCouple" class="full-width"></div>
       <div class="cell col-6 table testimonial">
         <div class="square-responsive square-center">
             <p>GIF Design Studios helped us develop a new brand identity that we feel will help distinguish us from our competitors.</p>
             <p>We love the fact that their team was knowledgeable when it came to talking about conversion, user experience, and branding, as we feel those are essential in growing a successful and profitable company. Working with a company that provides this type of education, is invaluable.</p>
-            <p class="bold project-text-color">Jen Hensard / Naomi Whittle</p>
+            <p class="bold project-text-color">Anita & Jarrod Roussel</p>
         </div>
       </div>
       <div class="cell col-6 desktop" >
         <div class="square-responsive square-image1"></div>
       </div>
-      <div class="col col-12" ><img src="../img/GIF-Naomi-04.jpg" alt="Naomi" class="full-width"></div>
-      <div class="col col-12" ><img src="../img/GIF-Naomi-05.jpg" alt="Naomi" class="full-width"></div>
-      <div class="col col-12" ><img src="../img/GIF-Naomi-06.jpg" alt="Naomi" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-TheCrunchyCouple-04.jpg" alt="TheCrunchyCouple" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-TheCrunchyCouple-05.jpg" alt="TheCrunchyCouple" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-TheCrunchyCouple-06.jpg" alt="TheCrunchyCouple" class="full-width"></div>
+
 
       <!--FOOTER-->
       <div class="project-links project-color">
         <div class="col col-3"></div>
-        <div class="col col-6">
+        <div class="col col-3">
           <div class="link-icon"><a class="isDisabled" href=""><i class="fa fa-behance inactive" aria-hidden="true"></i></a></div>
           <div class="link-text isDisabled">Behance</div>
+        </div>
+        <div class="col col-3">
+          <div class="link-icon"><a target="_blank" class="white" href="https://www.thecrunchycouple.com/"><i class="fa fa-link active" aria-hidden="true"></i></a></div>
+          <div class="link-text hide-on-mobile"><a target="_blank" class="white" href="https://www.thecrunchycouple.com/">www.thecrunchycouple.com</a></div>
+          <div class="link-text mobile"><a target="_blank" class="white" href="https://www.thecrunchycouple.com/">Website</a></div>
         </div>
         <div class="col col-3"></div>
       </div>

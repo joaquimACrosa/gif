@@ -556,8 +556,51 @@ h3 {
       background-size: cover;
   }
 
+  .project-alana-mitchell .project_26 {
+      background-image: url(../img/GIF-AlanaMitchell-01.jpg);
+  }
 
+  .project-alana-mitchell .square-image1 {
+      background-image: url(../img/GIF-AlanaMitchell-03.jpg);
+      background-position: right center!important;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
 
+  .project-compass-rose .project_27 {
+      background-image: url(../img/GIF-CompassRose-01.jpg);
+  }
+
+  .project-compass-rose .square-image1 {
+      background-image: url(../img/GIF-CompassRose-03.jpg);
+      background-position: right center!important;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .project-soul-powered .project_28 {
+      background-image: url(../img/GIF-SoulPowered-01.jpg);
+  }
+
+  .project-soul-powered .square-image1 {
+      background-image: url(../img/GIF-SoulPowered-03.jpg);
+      background-position: right center!important;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .project-crunchy-couple .project_29 {
+      background-image: url(../img/GIF-TheCrunchyCouple-01.jpg);
+  }
+
+  .project-crunchy-couple .square-image1 {
+      background-image: url(../img/GIF-TheCrunchyCouple-03.jpg);
+      background-position: right center!important;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+/* END PORTFOLIO IMAGES */
 
 /*MAIN*/
 body {
