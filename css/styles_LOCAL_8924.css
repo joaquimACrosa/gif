@@ -571,6 +571,13 @@ h3 {
       background-image: url(../img/GIF-CompassRose-01.jpg);
   }
 
+  .project-compass-rose .square-image1 {
+      background-image: url(../img/GIF-CompassRose-03.jpg);
+      background-position: right center!important;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
   .project-soul-powered .project_28 {
       background-image: url(../img/GIF-SoulPowered-01.jpg);
   }
@@ -593,66 +600,6 @@ h3 {
       background-size: cover;
   }
 
-  
-
-  .project-compass-rose .project_30 {
-    background-image: url(../img/GIF-CompassRose-01.jpg);
-}
-  .project-compass-rose .square-image1 {
-    background-image: url(../img/GIF-CompassRose-03.jpg);
-    background-position: right center!important;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-
-
-
-
-
-.project-elia-truly .project_31 {
-  background-image: url(../img/GIF-EliaTruly-01.jpg);
-}
-
-.project-elia-truly .square-image1 {
-  background-image: url(../img/GIF-EliaTruly-03.jpg);
-  background-position: center center!important;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-  .project-flyt-buddy .project_32 {
-    background-image: url(../img/GIF-FlytBuddy-01.jpg);
-  }
-
-  .project-flyt-buddy .square-image1 {
-    background-image: url(../img/GIF-FlytBuddy-03.jpg);
-    background-position: center center!important;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .project-dropship-bundles .project_33 {
-    background-image: url(../img/GIF-DropshipBundles-01.jpg);
-  }
-  
-  .project-dropship-bundles .square-image1 {
-    background-image: url(../img/GIF-DropshipBundles-03.jpg);
-    background-position: center center!important;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .project-shaggy-supps .project_34 {
-    background-image: url(../img/GIF-ShaggySupps-01.jpg);
-  }
-  
-  .project-shaggy-supps .square-image1 {
-    background-image: url(../img/GIF-ShaggySupps-03.jpg);
-    background-position: center center!important;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 /* END PORTFOLIO IMAGES */
 
 /*MAIN*/
