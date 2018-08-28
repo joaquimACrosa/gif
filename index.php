@@ -1,4 +1,4 @@
-<?
+<?php
 
 include 'library/template_functions/t_functions.php';
 
@@ -22,7 +22,6 @@ include 'library/template_functions/t_functions.php';
 <script src="js/typed.min.js"></script>
 <script type="text/javascript" src="js/jquery.fullpage.js"></script>
 <script type="text/javascript" src="js/midnight.jquery.min.js"></script>
-
 <script type="text/javascript">
 $(document).ready(function() {
     if ($(window).width() > 992) {
@@ -90,11 +89,11 @@ $(document).ready(function() {
     });*/
 });
 </script>
-    <? echo scriptsHead(); ?>
-<?php include 'shared/getAnalytics.php';?>
-<?php include 'shared/head-off.php';?>
+    <?php echo scriptsHead(); ?>
+    <?php echo getAnalytics(); ?>
+</head>
 <body>
-    <?php include 'shared/header.php';?>
+    <?php echo getHeader(); ?>
 
 
 <div id="wrapper">
@@ -119,6 +118,12 @@ $(document).ready(function() {
                 </div>
               <span id="typed" style="white-space:pre;"></span>
               </div></h1>
+              </div>
+              <div class="header-play">
+                  <button data-toggle="modal" data-src="https://player.vimeo.com/video/76979871" data-target="#myModal" data-youtube="MlCOdJuRh7Q" class="header-play-button video-btn">
+                       <i class="fas fa-play"></i>
+                      Play Video
+                  </button>
               </div>
             <div class="keepScrollingContainer">
               <div class="animated bounce">
@@ -190,11 +195,13 @@ $(document).ready(function() {
 
           <!--FOOTER-->
 
-          <? echo getFooter(); ?>
+          <?php echo getFooter(); ?>
           </div>
           <!--END FOOTER-->
         </div>
       <!--END SECTION 3-->
+
+          <?php echo videoModal(); ?>
 
     </div>
 </main>

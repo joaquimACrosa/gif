@@ -1014,11 +1014,11 @@ footer {
   text-align: center; }
 
 .home-project-container > div {
-  width: 25%;
-  height: 100vh;
-  float: left;
-  position: relative;
-  overflow: hidden; }
+    width: 50%;
+    height: 50vh;
+    float: left;
+    position: relative;
+    overflow: hidden; }
 
 .keepScrollingContainer.keepScrollingDark > div {
   color: #3a3a3a; }
@@ -2507,3 +2507,91 @@ article:hover .hover-overlay {
     opacity: 1;
     cursor:  pointer;
     }
+
+.header-play {
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    width: 100%;
+}
+
+.header-play-button {
+    background-color:  #000;
+    border: 2px solid transparent;
+    color: #fff;
+    font-family: Cera;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    padding: 10px 20px;
+    transition:  0.3s all ease;
+}
+
+.header-play-button:hover {
+    background-color:  transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+i.fas.fa-play {
+    font-family: fontawesome;
+    font-style: normal;
+    padding-right:5px
+}
+
+
+ /* VIDEO MODAL  */
+
+ div#myModal {
+     position:  fixed;
+     top: 0;
+     left: 0;
+     margin:  auto;
+     height:  100%;
+     width:  100%;
+     background-color: rgba(0, 0, 0, 0.7);
+     display: none;
+ }
+
+ .modal-body {
+     width: 100%;
+     margin: 30vh auto;
+     position: relative;
+     text-align: center;
+ }
+
+
+ .close-body i.fas.fa-times {
+     color:  #fff;
+     font-family:  fontawesome;
+     font-style:  normal;
+     font-size:  20px;
+     display:  inline-block;
+     transition:  0.3s color ease;
+ }
+
+ .close-body {
+     text-align: right;
+     width: 50%;
+     margin: 0 auto 20px;
+ }
+
+ .close-body i.fas.fa-times:hover {
+     cursor:  pointer;
+     color: rgba(255, 255, 255, 0.7);
+ }
+
+ .no-scroll{
+     overflow: hidden;
+ }
+
+ iframe.modal-video-frame {
+     height: 40vh;
+     top: 50px;
+     width: 50%;
+     display: inline-block;
+ }

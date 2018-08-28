@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <circle id="Oval" fill="#FF9C1A" cx="50" cy="50" r="50"></circle>
+            <path d="M68.4932459,49.6788178 L39.2338308,65.8391011 C38.8959946,66.0288795 38.6059003,66.0507767 38.3635394,65.9047933 C38.1211786,65.7588099 38,65.4960437 38,65.1164868 L38,32.8835119 C38,32.5039567 38.1211786,32.24119 38.3635394,32.0952068 C38.6059003,31.9492237 38.8959946,31.9711197 39.2338308,32.1608997 L68.4932459,48.3211824 C68.8310836,48.5109575 69,48.7372309 69,48.9999976 C69,49.2627692 68.8310836,49.4890426 68.4932459,49.6788178 Z" id="Fill-1" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
