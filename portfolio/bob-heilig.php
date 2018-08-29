@@ -1,4 +1,4 @@
-<?
+<?php
 include '../library/template_functions/t_functions.php';
 
 ?>
@@ -49,11 +49,11 @@ include '../library/template_functions/t_functions.php';
 
     });
   </script>
-    <? echo scriptsHead(); ?>
-    <? echo getAnalytics(); ?>
+    <?php echo scriptsHead(); ?>
+    <?php echo getAnalytics(); ?>
 </head>
 <body class="single-portfolio no-hijack project-bob-heilig">
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 <div id="wrapper">
   <main id="portfolio-page">
     <div>

@@ -29,6 +29,10 @@ include '../library/template_functions/t_functions.php';
       color: #72C0C0;
   }
 
+  .video-testimonial-btn svg circle {
+        fill: #72C0C0;
+    }
+
   </style>
   <script type="text/javascript">
     $(document).ready(function() {
@@ -108,24 +112,27 @@ include '../library/template_functions/t_functions.php';
 
       <div class="col col-12" ><img src="../img/GIF-AndrewHubbard-02.png" alt="AndrewHubbard" class="full-width"></div>
       <div class="cell col-12 table video-testimonial testimonial">
-        <div class="video-testimonial-block">
-            <div class="video-testimonial-img">
-                <img src="../img/GIF-Portfolio-AndrewHubbard-VideoTestimonial.jpg" alt="AndrewHubbard" class="full-width">
-            </div>
-            <div class="video-testimonial-btn">
-                <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-                    <title>Play</title>
-                    <desc>Created with Sketch.</desc>
-                    <defs></defs>
-                    <g id="Play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                        <g id="Group-2">
-                            <circle id="play-circle" fill="#FF9C1A" cx="50" cy="50" r="50"></circle>
-                            <path d="M68.4932459,49.6788178 L39.2338308,65.8391011 C38.8959946,66.0288795 38.6059003,66.0507767 38.3635394,65.9047933 C38.1211786,65.7588099 38,65.4960437 38,65.1164868 L38,32.8835119 C38,32.5039567 38.1211786,32.24119 38.3635394,32.0952068 C38.6059003,31.9492237 38.8959946,31.9711197 39.2338308,32.1608997 L68.4932459,48.3211824 C68.8310836,48.5109575 69,48.7372309 69,48.9999976 C69,49.2627692 68.8310836,49.4890426 68.4932459,49.6788178 Z" id="Fill-1" fill="#FFFFFF"></path>
-                        </g>
-                    </g>
-                </svg>
-            </div>
+            <div class="video-testimonial-block">
+                <div class="video-testimonial-img">
+                    <div class="video-testimonial-btn">
+                        <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-toggle="modal" data-src="https://player.vimeo.com/video/76979871" data-target="#myModal" data-youtube="MlCOdJuRh7Q" class="video-btn">
+                            <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                            <title>Play</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Group-2">
+                                    <circle id="play-circle" fill="#FF9C1A" cx="50" cy="50" r="50"></circle>
+                                    <path d="M68.4932459,49.6788178 L39.2338308,65.8391011 C38.8959946,66.0288795 38.6059003,66.0507767 38.3635394,65.9047933 C38.1211786,65.7588099 38,65.4960437 38,65.1164868 L38,32.8835119 C38,32.5039567 38.1211786,32.24119 38.3635394,32.0952068 C38.6059003,31.9492237 38.8959946,31.9711197 39.2338308,32.1608997 L68.4932459,48.3211824 C68.8310836,48.5109575 69,48.7372309 69,48.9999976 C69,49.2627692 68.8310836,49.4890426 68.4932459,49.6788178 Z" id="Fill-1" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="video-thumb">
+                        <img src="../img/GIF-Portfolio-AndrewHubbard-VideoTestimonial.jpg" alt="AndrewHubbard" class="full-width">
+                    </div>
+                </div>
+          </div>
       </div>
       <div class="col col-12" ><img src="../img/GIF-AndrewHubbard-04.png" alt="AndrewHubbard" class="full-width"></div>
       <div class="col col-12" ><img src="../img/GIF-AndrewHubbard-05.png" alt="AndrewHubbard" class="full-width"></div>
@@ -152,6 +159,7 @@ include '../library/template_functions/t_functions.php';
       </div>
       <?php echo getFooter(); ?>
       <!--END FOOTER-->
+      <?php echo videoModal(); ?>
 
     </div>
 </main>

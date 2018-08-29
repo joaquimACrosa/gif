@@ -1,4 +1,4 @@
-<?
+<?php
 include 'library/template_functions/t_functions.php';
 
 ?>
@@ -21,7 +21,7 @@ include 'library/template_functions/t_functions.php';
 <script src="js/typed.min.js"></script>
 <script type="text/javascript" src="js/jquery.fullpage.js"></script>
 <script src="js/modernizr.custom.js"></script>
-<? echo getAnalytics(); ?>
+<?php echo getAnalytics(); ?>
 
 <style>
 .bar1, .bar2, .bar3 {
@@ -42,10 +42,10 @@ include 'library/template_functions/t_functions.php';
     cbpBGSlideshow.init();
   });
 </script>
- <? echo scriptsHead(); ?>
+ <?php echo scriptsHead(); ?>
 </head>
 <body>
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 
   <main id="hire-us-page">
     <div id="fullpage" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, 0px, 0px);">

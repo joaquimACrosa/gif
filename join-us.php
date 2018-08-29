@@ -1,4 +1,4 @@
-<?
+<?php
 include 'library/template_functions/t_functions.php';
 
 ?>
@@ -299,7 +299,7 @@ include 'library/template_functions/t_functions.php';
         outline: none;
     }
   </style>
-  <? echo getAnalytics(); ?>
+  <?php echo getAnalytics(); ?>
   <script type="text/javascript">
     $(document).ready(function() {
 
@@ -312,10 +312,10 @@ include 'library/template_functions/t_functions.php';
 
     });
   </script>
- <? echo scriptsHead(); ?>
+ <?php echo scriptsHead(); ?>
 </head>
 <body class="no-hijack">
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 <div id="wrapper">
   <main>
     <div>
@@ -485,7 +485,7 @@ include 'library/template_functions/t_functions.php';
 
         <div class="bottom-section" style="position:relative;" id="section2">
 
-          <? echo getFooter(); ?>
+          <?php echo getFooter(); ?>
         </div>
 
 

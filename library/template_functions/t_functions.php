@@ -209,7 +209,7 @@ function videoModal(){
     </div>
     <script type="text/javascript">
     $(document).ready(function() {
-        $(".header-play-button").click(function() {
+        $(".video-btn").click(function() {
             var videoSrc = $(this).data( "src" );
             $(".modal-video-frame").attr("src", videoSrc);
 

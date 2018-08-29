@@ -1,4 +1,4 @@
-<?
+<?php
 include '../library/template_functions/t_functions.php';
 
 ?>
@@ -57,11 +57,11 @@ include '../library/template_functions/t_functions.php';
 
   });
   </script>
-    <? echo scriptsHead(); ?>
-    <? echo getAnalytics(); ?>
+    <?php echo scriptsHead(); ?>
+    <?php echo getAnalytics(); ?>
 </head>
 <body class="single-portfolio no-hijack project-naturally-made-essentials">
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 <div id="wrapper">
   <main id="portfolio-page">
     <div>
@@ -152,7 +152,7 @@ include '../library/template_functions/t_functions.php';
         <div class="nav-prev"><a href="the-bridal-collection-harrogate"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowLeft-White-@2x.png" alt="Left"><img class="grey-arrow mobile" width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"><div>Previous</div></a></div>
         <div class="nav-next"><a href="alma-cheia.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowRight-White-@2x.png" alt="Right"><img width="43" class="grey-arrow mobile" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Left"><div>Next</div></a></div>
       </div>
-      <? echo getFooter(); ?>
+      <?php echo getFooter(); ?>
       <!--END FOOTER-->
 
     </div>

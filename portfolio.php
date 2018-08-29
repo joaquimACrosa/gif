@@ -1,4 +1,4 @@
-<?
+<?php
 include 'library/template_functions/t_functions.php';
 
 ?>
@@ -19,7 +19,7 @@ include 'library/template_functions/t_functions.php';
   <script src="/js/typed.min.js"></script>
   <script type="text/javascript" src="/js/jquery.fullpage.js"></script>
   <script type="text/javascript" src="/js/midnight.jquery.min.js"></script>
-  <? echo getAnalytics(); ?>
+  <?php echo getAnalytics(); ?>
   <script type="text/javascript">
     $(document).ready(function() {
       function fullscreen(){
@@ -70,10 +70,10 @@ include 'library/template_functions/t_functions.php';
     });
     });
   </script>
- <? echo scriptsHead(); ?>
+ <?php echo scriptsHead(); ?>
 </head>
 <body class="portfolio_page no-hijack">
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 <div id="wrapper">
   <main id="portfolio-page">
     <div>
@@ -403,7 +403,7 @@ include 'library/template_functions/t_functions.php';
                 <a class="btn btn-orange animate" href="/hire-us">Oh Yeah!</a>
                 <!-- <a class="btn hide-on-mobile btn-orange animate" href="/contact">I have a question</a> -->
             </div>
-          <? echo getFooter(); ?>
+          <?php echo getFooter(); ?>
         </div>
       <!--END SECTION 3-->
 

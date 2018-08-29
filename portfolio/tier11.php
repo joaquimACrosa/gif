@@ -1,4 +1,4 @@
-<?
+<?php
 include '../library/template_functions/t_functions.php';
 
 ?>
@@ -49,11 +49,11 @@ include '../library/template_functions/t_functions.php';
 
     });
   </script>
-    <? echo scriptsHead(); ?>
-    <? echo getAnalytics(); ?>
+    <?php echo scriptsHead(); ?>
+    <?php echo getAnalytics(); ?>
 </head>
 <body class="single-portfolio no-hijack project-tier11">
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 <div id="wrapper">
   <main id="portfolio-page">
     <div>
@@ -108,7 +108,7 @@ include '../library/template_functions/t_functions.php';
       </div>
       <!--END PROJECT INFO-->
 
-      <div class="col col-12" ><img src="../img/GIF-Tier11-02.png" alt="Tier11" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-Tier11-02.jpg" alt="Tier11" class="full-width"></div>
       <div class="cell col-6 table testimonial">
         <div class="square-responsive square-center">
             <p>GIF Design Studios helped us develop a new brand identity that we feel will help distinguish us from our competitors.</p>
@@ -119,9 +119,9 @@ include '../library/template_functions/t_functions.php';
       <div class="cell col-6 desktop" >
         <div class="square-responsive square-image1"></div>
       </div>
-      <div class="col col-12" ><img src="../img/GIF-Tier11-04.png" alt="Tier11" class="full-width"></div>
-      <div class="col col-12" ><img src="../img/GIF-Tier11-05.png" alt="Tier11" class="full-width"></div>
-      <div class="col col-12" ><img src="../img/GIF-Tier11-06.png" alt="Tier11" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-Tier11-04.jpg" alt="Tier11" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-Tier11-05.gif" alt="Tier11" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-Tier11-06.jpg" alt="Tier11" class="full-width"></div>
 
       <!--FOOTER-->
       <div class="project-links project-color">

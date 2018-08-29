@@ -1,4 +1,4 @@
-<?
+<?php
 include 'library/template_functions/t_functions.php';
 
 ?>
@@ -21,7 +21,7 @@ include 'library/template_functions/t_functions.php';
 <script src="js/typed.min.js"></script>
 <script type="text/javascript" src="js/jquery.fullpage.js"></script>
 <script src="js/modernizr.custom.js"></script>
-<? echo getAnalytics(); ?>
+<?php echo getAnalytics(); ?>
 
 <style>
 .bar1, .bar2, .bar3 {
@@ -42,18 +42,18 @@ include 'library/template_functions/t_functions.php';
     cbpBGSlideshow.init();
   });
 </script>
- <? echo scriptsHead(); ?>
+ <?php echo scriptsHead(); ?>
 </head>
 <body>
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 
-  <main id="hire-us">    
+  <main id="hire-us">
             <div class="">
                 <!-- Change the width and height values to suit you best -->
 <div class="typeform-widget" data-url="https://joanagalvao.typeform.com/to/rcSOp8" data-text="Name" style="width:100%;height:100vh;"></div>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 </form>
-            
+
       <!--END SECTION 1-->
     </div>
 </main>

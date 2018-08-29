@@ -1,4 +1,4 @@
-<? include '../library/template_functions/t_functions.php'; ?>
+<?php include '../library/template_functions/t_functions.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -47,11 +47,11 @@
 
     });
   </script>
-    <? echo scriptsHead(); ?>
-    <? echo getAnalytics(); ?>
+    <?php echo scriptsHead(); ?>
+    <?php echo getAnalytics(); ?>
 </head>
 <body class="single-portfolio no-hijack project-elia-truly">
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 <div id="wrapper">
   <main id="portfolio-page">
     <div>
@@ -77,7 +77,7 @@
             <p class="txt-label">Sumary:</p>
             <p class="text">Lectus lacinia lacus potenti consequat parturient amet condimentum a parturient et fames adipiscing
             impers iaculis conubia eleifend a condimentum ligeleifend a condimectus lacinia lacus potenti consequat.</p>
-            <p>Parturient amet condimentum a parturient et fames adipiscing impers iaculis conubia eleifend a condimentum ligula. 
+            <p>Parturient amet condimentum a parturient et fames adipiscing impers iaculis conubia eleifend a condimentum ligula.
             Lectus lacinia lacus potenti consequat parturient amet condimentum a parturient et fames adipiscing impers iaculis conubia
             eleifend a condimentum ligeleifend a condimectus lacinia lacus potenti consequat.<p>
           </div>
@@ -121,9 +121,9 @@
         <div class="square-responsive square-image1"></div>
       </div>
       <div class="col col-12" ><img src="../img/GIF-EliaTruly-04.jpg" alt="EliaTruly" class="full-width"></div>
-      <div class="col col-12" ><img src="../img/GIF-EliaTruly-05.jpg" alt="EliaTruly" class="full-width"></div>
-      <div class="col col-12" ><img src="../img/GIF-EliaTruly-06.jpg" alt="EliaTruly" class="full-width"></div>
-
+      <div class="col col-6" ><img src="../img/GIF-EliaTruly-05.jpg" alt="EliaTruly" class="full-width"></div>
+      <div class="col col-6" ><img src="../img/GIF-EliaTruly-06.jpg" alt="EliaTruly" class="full-width"></div>
+      <div class="col col-12" ><img src="../img/GIF-EliaTruly-07.jpg" alt="EliaTruly" class="full-width"></div>
       <!--FOOTER-->
       <div class="project-links project-color">
         <div class="col col-3"></div>
@@ -142,7 +142,7 @@
         <div class="nav-prev"><a href="content-snare.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowLeft-White-@2x.png" alt="Left"><img class="grey-arrow mobile" width="43" src="../img/GIF-ArrowLeft-Grey-@2x.png" alt="Left"><div>Previous</div></a></div>
         <div class="nav-next"><a href="foddie.php"><img class="white-arrow hide-on-mobile" width="43" src="../img/GIF-ArrowRight-White-@2x.png" alt="Right"><img width="43" class="grey-arrow mobile" src="../img/GIF-ArrowRight-Grey-@2x.png" alt="Left"><div>Next</div></a></div>
       </div>
-      <? echo getFooter(); ?>
+      <?php echo getFooter(); ?>
       <!--END FOOTER-->
 
     </div>

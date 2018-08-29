@@ -1,4 +1,4 @@
-<?
+<?php
 include 'library/template_functions/t_functions.php';
 
 ?>
@@ -410,7 +410,7 @@ include 'library/template_functions/t_functions.php';
 
     }
   </style>
-  <? echo getAnalytics(); ?>
+  <?php echo getAnalytics(); ?>
   <script type="text/javascript">
     $(document).ready(function() {
       function fullscreen(){
@@ -454,10 +454,10 @@ include 'library/template_functions/t_functions.php';
       );
     });
   </script>
- <? echo scriptsHead(); ?>
+ <?php echo scriptsHead(); ?>
 </head>
 <body class="no-hijack">
-<? echo getHeader(); ?>
+<?php echo getHeader(); ?>
 <div id="wrapper">
   <main id="studio-page">
       <!--SECTION 1-->
@@ -722,7 +722,7 @@ And did we mention 50% of our team walks to work? Not very common for a city lik
             <div class="btn-container">
                 <a class="btn btn-orange animate" href="/hire-us">Definitely!</a>
             </div>
-          <? echo getFooter(); ?>
+          <?php echo getFooter(); ?>
         </div>
       <!--END SECTION 3-->
 
