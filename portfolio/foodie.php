@@ -8,18 +8,24 @@ include '../library/template_functions/t_functions.php';
   <meta charset="UTF-8">
   <title>Foodie - GIF Design Studios</title>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="screen" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/typed.css">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/animate.css">
 
-  <style>
-      .project-color{
-        background-color: #D64F47;
-      }
-      .txt-label{
-        color: #D64F47;
-      }
-      .project-text-color{
-          color: #D64F47;
-      }
-  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/typed.min.js"></script>
+  <script src="../js/squareResponsive.js"></script>
+
+    <?php
+  //ESCOLHER COR DO PROJETO
+        $projectColor = "#D64F47";
+
+        echo changeProjectColor($projectColor);
+    ?>
+
     <?php echo portfolioHead(); ?>
     <?php echo scriptsHead(); ?>
     <?php echo getAnalytics(); ?>

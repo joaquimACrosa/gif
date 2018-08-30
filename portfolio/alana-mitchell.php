@@ -18,16 +18,14 @@ include '../library/template_functions/t_functions.php';
   <script src="../js/script.js"></script>
   <script src="../js/typed.min.js"></script>
   <script src="../js/squareResponsive.js"></script>
-  <style>
-  .project-color{
-    background-color: #aab9d3;
-  }
-  .txt-label{
-    color: #aab9d3;
-  }
-  .project-text-color{
-      color: #aab9d3;
-  }
+  <?php
+
+  //ESCOLHER COR DO PROJETO
+  
+    $projectColor = "#aab9d3";
+
+    echo changeProjectColor($projectColor);
+   ?>
 
   </style>
   <script type="text/javascript">

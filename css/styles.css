@@ -1894,8 +1894,12 @@ img.full-width, img.img-fw {
 .link-icon {
   height: 28px; }
 
-.link-icon i.inactive, .link-text {
+.link-icon i.inactive, .link-text .inactive {
   color: rgba(255, 255, 255, 0.3); }
+
+ .link-block{
+      display: inline-block;
+ }
 
 .project-links {
   padding: 35px 0;
@@ -2636,5 +2640,23 @@ svg.video-btn {
     height: 10%;
     max-width:  100px;
 }
+
+/**/
+
+ /* --- VIMEO PLAYER ---  */
+
+ .vp-title {
+    display:  none;
+}
+
+.vp-sidedock {
+    display:  none;
+}
+
+
+.player .vp-controls .logo {
+    display:  none;
+}
+
 
 /**/

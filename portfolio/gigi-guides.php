@@ -18,17 +18,14 @@ include '../library/template_functions/t_functions.php';
   <script src="../js/script.js"></script>
   <script src="../js/typed.min.js"></script>
   <script src="../js/squareResponsive.js"></script>
-  <style>
-  .project-color{
-    background-color: #FF665C;
-  }
-  .txt-label{
-    color: #FF665C;
-  }
-  .project-text-color{
-      color: #FF665C;
-  }
-  </style>
+
+  <?php
+//ESCOLHER COR DO PROJETO
+      $projectColor = "#FF665C";
+
+      echo changeProjectColor($projectColor);
+  ?>
+
   <script type="text/javascript">
     $(document).ready(function() {
       function fullscreen(){

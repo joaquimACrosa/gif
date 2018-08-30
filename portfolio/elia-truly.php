@@ -16,18 +16,14 @@
   <script src="../js/script.js"></script>
   <script src="../js/typed.min.js"></script>
   <script src="../js/squareResponsive.js"></script>
-  <style>
-  .project-color{
-    background-color: #73a09a;
-  }
-  .txt-label{
-    color: #73a09a;
-  }
-  .project-text-color{
-      color: #73a09a;
-  }
 
-  </style>
+  <?php
+//ESCOLHER COR DO PROJETO
+      $projectColor = "#73a09a";
+
+      echo changeProjectColor($projectColor);
+  ?>
+
   <script type="text/javascript">
     $(document).ready(function() {
       function fullscreen(){

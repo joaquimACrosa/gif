@@ -19,20 +19,14 @@ include '../library/template_functions/t_functions.php';
   <script src="../js/typed.min.js"></script>
   <script src="../js/squareResponsive.js"></script>
   <script type="text/javascript" src="../js/background-check.min.js"></script>
-  <style>
-  a{
-      color:#B5945F;
-  }
-  .project-color{
-    background-color: #B5945F;
-  }
-  .txt-label{
-    color: #B5945F;
-  }
-  .project-text-color{
-      color: #B5945F;
-  }
-  </style>
+
+  <?php
+//ESCOLHER COR DO PROJETO
+      $projectColor = "#B5945F";
+
+      echo changeProjectColor($projectColor);
+  ?>
+
   <script type="text/javascript">
     $(document).ready(function() {
         BackgroundCheck.init({

@@ -18,18 +18,13 @@ include '../library/template_functions/t_functions.php';
   <script src="../js/script.js"></script>
   <script src="../js/typed.min.js"></script>
   <script src="../js/squareResponsive.js"></script>
-  <style>
-  .project-color{
-    background-color: #b9a152;
-  }
-  .txt-label{
-    color: #b9a152;
-  }
-  .project-text-color{
-      color: #b9a152;
-  }
 
-  </style>
+  <?php
+    $projectColor = "#b9a152";
+
+    echo changeProjectColor($projectColor);
+   ?>
+
   <script type="text/javascript">
     $(document).ready(function() {
       function fullscreen(){
@@ -75,10 +70,9 @@ include '../library/template_functions/t_functions.php';
         <div class="single-portfolio-info">
           <div class="portfolio-summary col-9">
             <p class="txt-label">Sumary:</p>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p class="text">
+                Michael and Amy Port, who together run the Heroic Public Speaking school, were having some troubles nailing the look and feel for their new Speaker Bureau, and came to us to see if we could help. They needed a brand and website that was high end, felt luxurious and established and that at the same time, created intrigue.
+                <br />According to them, we nailed what they were after as you can see below Michael Ports’s video testimonial. His words, not ours.
             <p>
           </div>
           <div class="portfolio-details col-3">
@@ -113,7 +107,7 @@ include '../library/template_functions/t_functions.php';
           <div class="video-testimonial-block">
               <div class="video-testimonial-img">
                   <div class="video-testimonial-btn">
-                      <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-toggle="modal" data-src="https://player.vimeo.com/video/76979871" data-target="#myModal" data-youtube="MlCOdJuRh7Q" class="video-btn">
+                      <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-toggle="modal" data-src="https://player.vimeo.com/video/286887607" data-target="#myModal" data-youtube="MlCOdJuRh7Q" class="video-btn">
                           <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
                           <title>Play</title>
                           <desc>Created with Sketch.</desc>
@@ -139,8 +133,8 @@ include '../library/template_functions/t_functions.php';
       <div class="project-links project-color">
         <div class="col col-3"></div>
         <div class="col col-3">
-          <div class="link-icon"><a class="isDisabled" href=""><i class="fa fa-behance inactive" aria-hidden="true"></i></a></div>
-          <div class="link-text isDisabled">Behance</div>
+          <a class="link-block" href="https://www.behance.net/gallery/69592519/League-of-Heroic-Public-Speakers"><div class="link-icon"><i class="fa fa-behance white" aria-hidden="true"></i></div>
+          <div class="link-text white">Behance</div></a>
         </div>
         <div class="col col-3">
           <div class="link-icon"><a target="_blank" class="white" href="http://www.leagueofspeakers.com"><i class="fa fa-link active" aria-hidden="true"></i></a></div>

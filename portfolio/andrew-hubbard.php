@@ -18,22 +18,14 @@ include '../library/template_functions/t_functions.php';
   <script src="../js/script.js"></script>
   <script src="../js/typed.min.js"></script>
   <script src="../js/squareResponsive.js"></script>
-  <style>
-  .project-color{
-    background-color: #72C0C0;
-  }
-  .txt-label{
-    color: #72C0C0;
-  }
-  .project-text-color{
-      color: #72C0C0;
-  }
 
-  .video-testimonial-btn svg circle {
-        fill: #72C0C0;
-    }
+    <?php
+  //ESCOLHER COR DO PROJETO
+        $projectColor = "#72C0C0";
 
-  </style>
+        echo changeProjectColor($projectColor);
+    ?>
+
   <script type="text/javascript">
     $(document).ready(function() {
       function fullscreen(){

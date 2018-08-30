@@ -242,4 +242,41 @@ function videoModal(){
 
 }
 
+function changeProjectColor($color){
+    $output = '
+    <style>
+    .project-color{
+      background-color: '.$color.';
+    }
+    .txt-label{
+      color: '.$color.';
+    }
+    .project-text-color{
+        color: '.$color.';
+    }
+
+    .video-testimonial-btn svg circle {
+          fill: '.$color.'!important;
+      }
+
+      .player .vp-controls .play:hover {
+          background-color: '.$color.'!important;
+      }
+
+      .player .vp-controls .vp-progress .played {
+          background-color: '.$color.'!important;
+      }
+
+      .player .vp-controls .volume>div {
+          background-color: '.$color.'!important;
+      }
+
+      .player svg:hover .fill {
+          fill: '.$color.'!important;
+      }
+    </style>';
+    echo $output;
+
+}
+
 ?>
