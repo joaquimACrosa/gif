@@ -2374,7 +2374,13 @@ img.full-width, img.img-fw {
   .footer-project-nav a {
     color: #3a3a3a; }
   #menu_container nav {
-    right: 40px; } }
+    right: 40px; }
+
+    iframe.modal-video-frame {
+        min-height: 40vw!important;
+    }
+
+}
 
 @media all and (max-width: 480px) {
   #hire-us-page .col-6.left-content {
@@ -2555,10 +2561,11 @@ i.fas.fa-play {
  }
 
  .modal-body {
-     width: 100%;
+     width: 90%;
      margin: 30vh auto;
      position: relative;
      text-align: center;
+     padding: 0 5%;
  }
 
 
@@ -2573,7 +2580,8 @@ i.fas.fa-play {
 
  .close-body {
      text-align: right;
-     width: 50%;
+     max-width: 650px;
+     padding: 0;
      margin: 0 auto 20px;
  }
 
@@ -2590,9 +2598,7 @@ i.fas.fa-play {
      top: 50px;
      right: 0;
      width: 90%;
-     position: absolute;
      left: 0;
-     padding: 0 5%;
      min-height: 340px;
  }
 
