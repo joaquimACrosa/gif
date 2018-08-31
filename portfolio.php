@@ -87,7 +87,7 @@ include 'library/template_functions/t_functions.php';
         <div class="keepScrollingContainer">
             <div class="animated bounce">
                 <a href="#scroll-anchor">
-                    <img src="/img/GIF-Scroll-@2x.png" width="25">
+                    <img src="img/GIF-Scroll-@2x.png" width="25">
                 </a>
             </div>
             <div>Keep Scrolling</div>
@@ -106,7 +106,7 @@ include 'library/template_functions/t_functions.php';
                               </div>
                           </div>
                           <figure class="">
-                              <img src="img/GIF-Portfolio-Cover-Foodie.jpg" alt="" class="full-width">
+                              <img src="img/GIF-Portfolio-Cover-NicholasKusmich.jpg" alt="" class="full-width">
                           </figure>
                   </article>
                   <!-- / item -->
@@ -120,7 +120,7 @@ include 'library/template_functions/t_functions.php';
                           </div>
                       </div>
   					<figure class="">
-  						<img src="img/GIF-Portfolio-Cover-LeagueHPS.jpg" alt="LeagueHPS" class="full-width">
+  						<img src="img/GIF-Portfolio-Cover-LeagueOfHPS.jpg" alt="LeagueHPS" class="full-width">
   					</figure>
   				</article>
   				<!-- / item -->
@@ -288,7 +288,7 @@ include 'library/template_functions/t_functions.php';
                         </div>
                     </div>
 					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-NutritionTherapyInstitute.jpg" alt="" class="full-width">
+						<img src="img/GIF-Portfolio-Cover-NTI.jpg" alt="" class="full-width">
 					</figure>
 				</article>
 				<!-- / item -->
@@ -332,7 +332,7 @@ include 'library/template_functions/t_functions.php';
                         </div>
                     </div>
 					<figure class="">
-						<img src="img/GIF-Portfolio-Cover-BabyBareEssentials.jpg" alt="" class="full-width">
+						<img src="img/GIF-Portfolio-Cover-BabyBare.jpg" alt="" class="full-width">
 					</figure>
 				</article>
 				<!-- / item -->

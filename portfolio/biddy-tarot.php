@@ -60,7 +60,7 @@ include '../library/template_functions/t_functions.php';
                   <div class="animated bounce">
                       <img src="../img/GIF-Scroll-@2x.png" width="25">
                   </div>
-                  <div>Keep Scrolling</div>
+                  <div class="white"v>Keep Scrolling</div>
               </a>
             </div>
         </div>
@@ -191,14 +191,17 @@ include '../library/template_functions/t_functions.php';
       <div class="project-links project-color">
         <div class="col col-3"></div>
         <div class="col col-3">
-          <div class="link-icon"><a target="_blank" href="https://www.behance.net/gallery/45397543/Biddy-Tarot"><i class="fa fa-behance" aria-hidden="true"></i></a></div>
-          <div class="link-text"><a target="_blank" href="https://www.behance.net/gallery/45397543/Biddy-Tarot">Behance</a></div>
+          <a class="link-block" target="_blank" href="https://www.behance.net/gallery/45397543/Biddy-Tarot"><div class="link-icon"><i class="fa fa-behance white" aria-hidden="true"></i></div>
+          <div class="link-text white">Behance</div></a>
         </div>
         <div class="col col-3">
-          <div class="link-icon"><i class="fa fa-link" aria-hidden="true"></i></div>
-          <div class="link-text hide-on-mobile"><a target="_blank" href="http://www.biddytarot.com">www.biddytarot.com</a></div>
+          <a class="white" target="_blank" href="http://www.biddytarot.com">
+              <div class="link-icon"><i class="fa fa-link" aria-hidden="true"></i></div>
+              <div class="link-text hide-on-mobile">www.biddytarot.com</div>
+          </a>
           <div class="link-text mobile"><a target="_blank" href="http://www.biddytarot.com">Website</a></div>
         </div>
+
         <div class="col col-3"></div>
       </div>
       <div class="footer-project-nav project-nav">

@@ -107,7 +107,7 @@ include '../library/template_functions/t_functions.php';
           <div class="video-testimonial-block">
               <div class="video-testimonial-img">
                   <div class="video-testimonial-btn">
-                      <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-toggle="modal" data-src="https://player.vimeo.com/video/286887607" data-target="#myModal" data-youtube="MlCOdJuRh7Q" class="video-btn">
+                      <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-toggle="modal" data-src="https://player.vimeo.com/video/286887607?color=B9A152&title=0&byline=0&portrait=0" data-target="#myModal" data-youtube="MlCOdJuRh7Q" class="video-btn">
                           <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
                           <title>Play</title>
                           <desc>Created with Sketch.</desc>
@@ -133,7 +133,7 @@ include '../library/template_functions/t_functions.php';
       <div class="project-links project-color">
         <div class="col col-3"></div>
         <div class="col col-3">
-          <a class="link-block" href="https://www.behance.net/gallery/69592519/League-of-Heroic-Public-Speakers"><div class="link-icon"><i class="fa fa-behance white" aria-hidden="true"></i></div>
+          <a class="link-block" href="https://www.behance.net/gallery/69592519/League-of-Heroic-Public-Speakers" target="_blank"><div class="link-icon"><i class="fa fa-behance white" aria-hidden="true"></i></div>
           <div class="link-text white">Behance</div></a>
         </div>
         <div class="col col-3">

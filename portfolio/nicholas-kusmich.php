@@ -71,10 +71,10 @@ include '../library/template_functions/t_functions.php';
         <div class="single-portfolio-info">
           <div class="portfolio-summary col-9">
             <p class="txt-label">Sumary:</p>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p class="text">Nicholas helps businesses rapidly scale revenue by getting them more customers using Facebook Advertising. He is the guy behind the highest campaign ROI’s in the world.
+                <br />Specializing in working with high growth companies including thought-leaders, influencers, professional service providers, ecommerce companies, and big brands, Nicholas came to us to get a brand overhaul that reflected the high caliber work he did.
+                <br/>We did this by first designing a new brand identity, and then rolling it out to his website and other marketing materials.
+
             <p>
           </div>
           <div class="portfolio-details col-3">
@@ -109,9 +109,8 @@ include '../library/template_functions/t_functions.php';
       <div class="col col-12" ><img src="../img/GIF-NicholasKusmich-02.jpg" alt="NicholasKusmich" class="full-width"></div>
       <div class="cell col-6 table testimonial">
         <div class="square-responsive square-center">
-            <p>GIF Design Studios helped us develop a new brand identity that we feel will help distinguish us from our competitors.</p>
-            <p>We love the fact that their team was knowledgeable when it came to talking about conversion, user experience, and branding, as we feel those are essential in growing a successful and profitable company. Working with a company that provides this type of education, is invaluable.</p>
-            <p class="bold project-text-color">Nicholas Kusmich</p>
+            <p>"Just to go on record that Joana Galvão and her team were such an amazing delight to work with. They captured everything I was looking to do and executed smooth like butter!!!"</p>
+            <p class="bold project-text-color">Nicholas Kusmich | Author, Speaker & Facebook Ad Expert</p>
         </div>
       </div>
       <div class="cell col-6 desktop" >
@@ -128,8 +127,8 @@ include '../library/template_functions/t_functions.php';
       <div class="project-links project-color">
         <div class="col col-3"></div>
         <div class="col col-3">
-          <div class="link-icon"><a class="isDisabled" href=""><i class="fa fa-behance inactive" aria-hidden="true"></i></a></div>
-          <div class="link-text isDisabled">Behance</div>
+          <a class="link-block" target="_blank" href="https://www.behance.net/gallery/53528303/Nicholas-Kusmich"><div class="link-icon"><i class="fa fa-behance white" aria-hidden="true"></i></div>
+          <div class="link-text white">Behance</div></a>
         </div>
         <div class="col col-3">
           <div class="link-icon"><a target="_blank" class="white" href="http://www.nicholaskusmich.com"><i class="fa fa-link active" aria-hidden="true"></i></a></div>

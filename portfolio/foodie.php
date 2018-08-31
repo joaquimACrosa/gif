@@ -40,9 +40,9 @@ include '../library/template_functions/t_functions.php';
           <div class="keepScrollingContainer">
               <a href="#anchor">
                   <div class="animated bounce">
-                      <img src="../img/GIF-Scroll-@2x.png" width="25">
+                      <img src="../img/GIF-ScrollWhite-@2x.png" width="25">
                   </div>
-                  <div>Keep Scrolling</div>
+                  <div class="white">Keep Scrolling</div>
               </a>
             </div></div>
       <div class="col col-12 hide-on-desktop"><img src="../img/GIF-Foodie-01.jpg" alt="Foodie" class="full-width"></div>
@@ -117,13 +117,9 @@ I am more than happy with the result and recommend everybody to work with them f
       <!--FOOTER-->
       <div class="project-links project-color">
         <div class="col col-3"></div>
-        <div class="col col-3">
-          <div class="link-icon"><a href="#"><i class="fa fa-behance inactive" aria-hidden="true"></i></a></div>
-          <div class="link-text">Behance</div>
-        </div>
-        <div class="col col-3">
-          <div class="link-icon"><i class="fa fa-link inactive" aria-hidden="true"></i></div>
-          <div class="link-text">Coming Soon</div>
+        <div class="col col-6">
+          <a class="link-block" href="https://www.behance.net/gallery/45397161/Foodie" target="_blank"><div class="link-icon"><i class="fa fa-behance white" aria-hidden="true"></i></div>
+          <div class="link-text white">Behance</div></a>
         </div>
         <div class="col col-3"></div>
       </div>

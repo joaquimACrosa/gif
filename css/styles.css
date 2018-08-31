@@ -976,7 +976,7 @@ nav ul {
   background-size: cover; }
 
 .workwithus-p {
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 25px; }
 
 #home-page footer {
@@ -1944,6 +1944,11 @@ img.full-width, img.img-fw {
   vertical-align: middle;
   padding: 0 80px; }
 
+.square-center p {
+    max-width:  640px;
+    margin: 0 auto;
+}
+
 .table {
   display: table; }
 
@@ -2259,6 +2264,9 @@ img.full-width, img.img-fw {
     display: none !important; }
   .mobile {
     display: block !important; }
+    img.mobile {
+      display: inline-block !important;
+  }
   .hide-on-mobile {
     display: none !important; }
   .header-section {
@@ -2313,6 +2321,9 @@ img.full-width, img.img-fw {
     width: 10%; }
   .project-links .col-3 {
     width: 40%; }
+    .project-links a {
+        display: inline-block;
+    }
   #studio-page #section1 .row {
     width: 216px; }
   .service-list ul {
@@ -2345,13 +2356,17 @@ img.full-width, img.img-fw {
   #contact-page .page-content {
     width: 91%;
     padding-left: 20px; }
-  .project-nav .nav-prev {
-    position: relative;
-    left: 25%;
-    width: 43px;
-    float: left;
-    margin-bottom: 60px;
-    margin-top: 20px; }
+  .project-nav .nav-prev, .project-nav .nav-next {
+      position: relative;
+      width: 50%;
+      float: left;
+      margin-bottom: 60px;
+      margin-top: 20px;
+      text-align: center;
+      top: unset;
+      right: unset;
+      left: unset;
+  }
   .footer-container .col-4 {
     width: 100%; }
   .footer-text {
@@ -2380,6 +2395,10 @@ img.full-width, img.img-fw {
         min-height: 40vw!important;
     }
 
+    .video-testimonial-block {
+        width: 90%!important;
+
+    }
 }
 
 @media all and (max-width: 480px) {

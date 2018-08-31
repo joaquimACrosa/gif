@@ -58,7 +58,7 @@ include '../library/template_functions/t_functions.php';
           <div class="keepScrollingContainer keepScrollingDark">
               <a href="#anchor">
                   <div class="animated bounce">
-                      <img src="../img/GIF-Scroll-@2x.png" width="25">
+                      <img src="../img/GIF-ScrollDarkGrey-@2x.png" width="25">
                   </div>
                   <div>Keep Scrolling</div>
               </a>
@@ -132,13 +132,9 @@ include '../library/template_functions/t_functions.php';
       <!--FOOTER-->
       <div class="project-links project-color">
         <div class="col col-3"></div>
-        <div class="col col-3">
-          <div class="link-icon"><a href="#"><i class="fa fa-behance inactive" aria-hidden="true"></i></a></div>
-          <div class="link-text">Behance</div>
-        </div>
-        <div class="col col-3">
-          <div class="link-icon"><i class="fa fa-link inactive" aria-hidden="true"></i></div>
-          <div class="link-text">Coming Soon</div>
+        <div class="col col-6">
+          <a class="link-block" target="_blank" href="https://www.behance.net/gallery/45394265/Baby-Bare-Essentials"><div class="link-icon"><i class="fa fa-behance white" aria-hidden="true"></i></div>
+          <div class="link-text white">Behance</div></a>
         </div>
         <div class="col col-3"></div>
       </div>

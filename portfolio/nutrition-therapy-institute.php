@@ -58,9 +58,9 @@ include '../library/template_functions/t_functions.php';
           <div class="keepScrollingContainer">
               <a href="#anchor">
                   <div class="animated bounce">
-                      <img src="../img/GIF-Scroll-@2x.png" width="25">
+                      <img src="../img/GIF-ScrollWhite-@2x.png" width="25">
                   </div>
-                  <div>Keep Scrolling</div>
+                  <div class="white">Keep Scrolling</div>
               </a>
             </div>
         </div>
@@ -130,13 +130,15 @@ include '../library/template_functions/t_functions.php';
       <div class="project-links project-color">
         <div class="col col-3"></div>
         <div class="col col-3">
-          <div class="link-icon"><i class="fa fa-behance inactive" aria-hidden="true"></i></div>
-          <div class="link-text">Behance</div>
+          <a class="link-block"  target="_blank" href="https://www.behance.net/gallery/45393877/Nutrition-Theraphy-Institute"><div class="link-icon"><i class="fa fa-behance white" aria-hidden="true"></i></div>
+          <div class="link-text white">Behance</div></a>
         </div>
         <div class="col col-3">
-          <div class="link-icon"><i class="fa fa-link" aria-hidden="true"></i></div>
-          <div class="link-text hide-on-mobile"><a target="_blank" href="http://www.ntischool.com">www.ntischool.com</a></div>
-          <div class="link-text mobile"><a target="_blank" href="http://www.ntischool.com">Website</a></div>
+          <a class="white link-block" target="_blank" href="http://www.ntischool.com/">
+              <div class="link-icon"><i class="fa fa-link" aria-hidden="true"></i></div>
+              <div class="link-text hide-on-mobile">www.ntischool.com</div>
+          </a>
+          <div class="link-text mobile"><a target="_blank" href="http://www.ntischool.com/">Website</a></div>
         </div>
         <div class="col col-3"></div>
       </div>
